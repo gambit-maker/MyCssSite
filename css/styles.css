@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66BFBF;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+a:hover{
+  color: #EAF6F6;
+}
+hr {
+  border-style: dotted none none;
+  width: 5%;
+  border-width: 5px;
+  border-color: gray;
+  margin: 100px auto;
+}
+
+p{
+  line-height: 2;
+}
+/*************************CSS CLASS*************************/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.gambit {
+  text-decoration: underline;
+}
+.contact-info{
+  width: 30%;
+  margin: 50px auto 40px;
+}
+.cute-containt{
+  width: 30%;
+  margin: auto;
+}
+
+.top-clound {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-clound {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.knight-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.description-1 {
+  clear: left;
+}
+
+.description-2 {
+  clear: right;
+}
+
+.myButton {
+  background: linear-gradient(to bottom, #f5f9ff 5%, #197efa 100%);
+  background-color: #f5f9ff;
+  border-radius: 10px;
+  border: 1px solid #f2f2f2;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 12px 37px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #197efa 5%, #f5f9ff 100%);
+  background-color: #197efa;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.middle-container {
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding:50px 0 40px;
+}
+.footer-link {
+  text-decoration: none;
+  margin:0 10px;
+}
+
+.author {
+  padding-top: 20px;
+  color: #EAF6F6;
+  font-size: 0.75rem;
+}
